@@ -18,7 +18,6 @@ class CardGame:
 
 # Line 2: equals should be == not =
 # Line 4: colon missing from end of else.
-# Whole function: every line needs it's indentation reduced by one.
   def check_for_ace(self, card):
     if card.value = 1:
       return True
@@ -27,8 +26,8 @@ class CardGame:
    
 # Line 1: spelling error dif instead of def
 # Line 1: comma missing after card1
-# Line 1: remove indentation
-# Lone 3: card is not passed in. It needs to be card1 or card2.
+# Line 3: card is not a parameter. It needs to be card1 or card2.
+# Lines 1 to 4: need to be indented one tab.
   dif highest_card(self, card1 card2):
   if card1.value > card2.value:
     return card
@@ -36,10 +35,12 @@ class CardGame:
     return card2
   
 
+# Lines 1 to 4: need to be indented one tab.
 # Line 2: total not defined. Should be total = x, x being a value
-# Line 3: indentation before return needs to be removed
 # Line 5: total is an integer so need to convert it to string to add it to 
 #         concatenate it to a string.
+# Line 5: space needed before closing quotation marks
+
 def cards_total(self, cards):
   total
   for card in cards:
@@ -47,25 +48,3 @@ def cards_total(self, cards):
     return "You have a total of" + total
   
 ```
-
-
-  def check_for_ace(self, card):
-    if card.value = 1:
-      return True
-    else
-      return False
-   
-
-  dif highest_card(self, card1 card2):
-  if card1.value > card2.value:
-    return card
-  else:
-    return card2
-  
-
-
-def cards_total(self, cards):
-  total
-  for card in cards:
-    total += card.value
-    return "You have a total of" + total
